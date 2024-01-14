@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Durdle-A Wordle clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+    <header>
+
+        
+        <!-- <hr id="hr1"> -->
+        <p id="wordleheading">
+            Durdle
+        </p>
+
+        <button id="theme">
+            <i class="fa-regular fa-sun" id="themeicon" style="color: #ffffff;"></i>
+        </button>
+    </header>
+    
+    <main>
+       <div id="floatingparent">
+        <div id="floatinglabel">
+            Not in word list
+        </div>
+       </div>
+
+       <div id="maingame">
+        <div id="board">
+            <div id="row1" class="row">
+                <div id="box11" class="box"><div class="boxtext" id="box11text"></div></div>
+                <div id="box12" class="box"><div class="boxtext" id="box12text"></div></div>
+                <div id="box13" class="box"><div class="boxtext" id="box13text"></div></div>
+                <div id="box14" class="box"><div class="boxtext" id="box14text"></div></div>
+                <div id="box15" class="box"><div class="boxtext" id="box15text"></div></div>
+                
+            </div>
+            <div id="row2" class="row">
+                <div id="box21" class="box"><div class="boxtext" id="box21text"></div></div>
+                <div id="box22" class="box"><div class="boxtext" id="box22text"></div></div>
+                <div id="box23" class="box"><div class="boxtext" id="box23text"></div></div>
+                <div id="box24" class="box"><div class="boxtext" id="box24text"></div></div>
+                <div id="box25" class="box"><div class="boxtext" id="box25text"></div></div>
+              
+            </div>
+            
+            
+            <div id="row3" class="row">
+                <div id="box31" class="box"><div class="boxtext" id="box31text"></div></div>
+                <div id="box32" class="box"><div class="boxtext" id="box32text"></div></div>
+                <div id="box33" class="box"><div class="boxtext" id="box33text"></div></div>
+                <div id="box34" class="box"><div class="boxtext" id="box34text"></div></div>
+                <div id="box35" class="box"><div class="boxtext" id="box35text"></div></div>
+                
+            </div>
+            <div id="row4" class="row">
+                <div id="box41" class="box"><div class="boxtext" id="box41text"></div></div>
+                <div id="box42" class="box"><div class="boxtext" id="box42text"></div></div>
+                <div id="box43" class="box"><div class="boxtext" id="box43text"></div></div>
+                <div id="box44" class="box"><div class="boxtext" id="box44text"></div></div>
+                <div id="box45" class="box"><div class="boxtext" id="box45text"></div></div>
+                
+            </div>
+            <div id="row5" class="row">
+                <div id="box51" class="box"><div class="boxtext" id="box51text"></div></div>
+                <div id="box52" class="box"><div class="boxtext" id="box52text"></div></div>
+                <div id="box53" class="box"><div class="boxtext" id="box53text"></div></div>
+                <div id="box54" class="box"><div class="boxtext" id="box54text"></div></div>
+                <div id="box55" class="box"><div class="boxtext" id="box55text"></div></div>
+           
+            </div>
+            <div id="row6" class="row">
+                <div id="box61" class="box"><div class="boxtext" id="box11text"></div></div>
+                <div id="box62" class="box"><div class="boxtext" id="box11text"></div></div>
+                <div id="box63" class="box"><div class="boxtext" id="box11text"></div></div>
+                <div id="box64" class="box"><div class="boxtext" id="box11text"></div></div>
+                <div id="box65" class="box"><div class="boxtext" id="box11text"></div></div>
+                
+            </div>
+        </div>
+
+
+
+        <!-- keyboard -->
+
+        <div id="keyboard">
+            <div id="keyrow1" class="keyrow">
+                <button class="key" id="Q">Q</button>
+                <button class="key" id="W">W</button>
+                <button class="key" id="E">E</button>
+                <button class="key" id="R">R</button>
+                <button class="key" id="T">T</button>
+                <button class="key" id="Y">Y</button>
+                <button class="key" id="U">U</button>
+                <button class="key" id="I">I</button>
+                <button class="key" id="O">O</button>
+                <button class="key" id="P">P</button>
+            </div>
+
+            <div id="keyrow2" class="keyrow">
+                <button class="key" id="A">A</button>
+                <button class="key" id="S">S</button>
+                <button class="key" id="D">D</button>
+                <button class="key" id="F">F</button>
+                <button class="key" id="G">G</button>
+                <button class="key" id="H">H</button>
+                <button class="key" id="J">J</button>
+                <button class="key" id="K">K</button>
+                <button class="key" id="L">L</button>
+                
+            </div>
+
+            <div id="keyrow3" class="keyrow">
+                <button class="key" id="enter">ENTER</button>
+                <button class="key" id="Z">Z</button>
+                <button class="key" id="X">X</button>
+                <button class="key" id="C">C</button>
+                <button class="key" id="V">V</button>
+                <button class="key" id="B">B</button>
+                <button class="key" id="N">N</button>
+                <button class="key" id="M">M</button>
+                <button class="key" id="back">BACK</button>
+                
+            </div>
+
+
+        </div>
+       </div>
+    </main>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
