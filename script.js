@@ -454,6 +454,7 @@ keys.forEach((key) => {
                             
                             
                             console.log("r:",r);
+                            if(keys[r].style.backgroundColor=="#818384")
                             keys[r].style.backgroundColor="#3A3A3C";
                         }
 
@@ -464,6 +465,7 @@ keys.forEach((key) => {
                             child.style.border="#B59F3B";
                             
                             console.log("r:",r);
+                            if(keys[r].style.backgroundColor=="#818384")
                             keys[r].style.backgroundColor="#B59F3B";
                         }
 
@@ -473,6 +475,7 @@ keys.forEach((key) => {
                             child.style.border="#538D4E";
                             
                             console.log("r:",r);
+                            if(keys[r].style.backgroundColor=="#818384")
                             keys[r].style.backgroundColor="#538D4E";
                             
                         }
