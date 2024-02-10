@@ -81,7 +81,20 @@ if(currentTheme==false)
     themeIcon.style.color="white";
     floatinglabel.style.backgroundColor="white";
     floatinglabel.style.color="black";
+
+    for(let i=0;i<=currentbox;i++)
+    {   
+        console.log("uhuh");
+        currentrow.children[i].style.border="2px solid #565758";
+
+        
+    }
+
+
     refillKeys();
+
+    
+
     let l=0;
     while(rows[l]!=currentrow||gameOver==true)
     {
@@ -121,6 +134,14 @@ else{
     floatinglabel.style.backgroundColor="black";
     floatinglabel.style.color="white";
     refillKeys();
+
+    for(let i=0;i<=currentbox;i++)
+    {
+        console.log("uhuh");
+        currentrow.children[i].style.border="2px solid #565758";
+        
+    }
+
     let l=0;
     while(rows[l]!=currentrow||gameOver==true)
     {
@@ -134,6 +155,9 @@ else{
         }
         l++;
     }
+
+    
+
 
     
 }
